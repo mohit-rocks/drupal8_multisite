@@ -1,0 +1,16 @@
+uuid: 32003245-1472-4582-b6bc-fcf9ae301974
+langcode: en
+status: true
+dependencies: {  }
+id: site2
+label: 'Site 2'
+folder: ../config/splits/site2
+module: {  }
+theme: {  }
+blacklist:
+  - system.site
+graylist:
+  - system.site
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
