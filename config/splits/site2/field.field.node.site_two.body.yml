@@ -1,0 +1,22 @@
+uuid: 452653f2-6038-45da-9091-b47a2a80517e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.site_two
+  module:
+    - text
+id: node.site_two.body
+field_name: body
+entity_type: node
+bundle: site_two
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
