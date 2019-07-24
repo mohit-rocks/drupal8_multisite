@@ -7,7 +7,8 @@ label: 'Site 1'
 folder: ../config/splits/site1
 module: {  }
 theme: {  }
-blacklist: {  }
+blacklist:
+  - field.storage.node.field_site_1_textfield
 graylist:
   - system.site
 graylist_dependents: true

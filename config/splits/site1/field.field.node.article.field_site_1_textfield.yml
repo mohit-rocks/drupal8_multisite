@@ -1,0 +1,19 @@
+uuid: eef9c1e0-7d62-4975-af0e-828b7602cac3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_site_1_textfield
+    - node.type.article
+id: node.article.field_site_1_textfield
+field_name: field_site_1_textfield
+entity_type: node
+bundle: article
+label: 'Site 1 Textfield'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
